@@ -217,6 +217,7 @@ footer{
 	position: absolute;
 	display:inline-block;
 }
+/* Вёрстка для сайты при разрешении 320px */
 @media all and (min-width: 320px) {
 	.header_menu{
 		width: 320px; /* Ширина слоя в пикселах */
@@ -371,6 +372,7 @@ footer{
 		font-size: 12px;
 	}
 }
+/* Вёрстка для сайты при разрешении 325px */
 @media all and (max-width: 325px) {
 	.header_menu{
 		width: 320px; /* Ширина слоя в пикселах */
@@ -515,6 +517,7 @@ footer{
 		font-size: 12px;
 	}
 }
+/* Вёрстка для сайты при разрешении 374px */
 @media all and (min-width: 374px) {
 	.header_menu{
 		width: 370px; /* Ширина слоя в пикселах */
@@ -659,6 +662,7 @@ footer{
 		font-size: 12px;
 	}
 }
+/* Вёрстка для сайты при разрешении 399px */
 @media all and (max-width: 399px) {
 	.header_menu{
 		width: 350px; /* Ширина слоя в пикселах */
@@ -803,9 +807,10 @@ footer{
 		font-size: 12px;
 	}
 }
+/* Вёрстка для сайты при разрешении 425px */
 @media all and (min-width: 425px) {
 	.header_menu{
-		width: 400px; /* Ширина слоя в пикселах */
+		width: 450px; /* Ширина слоя в пикселах */
 		margin: 0 auto; /* Отступ слева и справа */
 		background: #ffb053; /* Цвет фона */
 		padding: 10px; /* Поля вокруг текста */
@@ -821,7 +826,7 @@ footer{
 	.center{
 		position: relative;
 		top: 20px;
-		width: 300px; /* Ширина слоя в пикселах */
+		width: 425px; /* Ширина слоя в пикселах */
 		margin: 0 auto; /* Отступ слева и справа */
 		padding: 10px; /* Поля вокруг текста */
 		text-align:	center;
@@ -829,7 +834,7 @@ footer{
 	}
 	.glavnaya_select{
 		color: #333333;
-		width: 60px;
+		width: 100px;
 		display:inline-block;
 		cursor: pointer;
 		border-spacing: 250px; /* Расстояние между ячейками */
@@ -841,21 +846,21 @@ footer{
 	}
 	.register{
 		color: #333333;
-		width: 60px;
+		width: 100px;
 		display:inline-block;
 		cursor: pointer;
 		border-spacing: 250px; /* Расстояние между ячейками */
 	}
 	.arenda{
 		color: #333333;
-		width: 60px;
+		width: 100px;
 		display:inline-bloc1k;
 		cursor: pointer;
 		border-spacing: 250px; /* Расстояние между ячейками */
 	}
 	.jelanie{
 		color: #333333;
-		width: 60px;
+		width: 100px;
 		display:inline-block;
 		cursor: pointer;
 		border-spacing: 250px; /* Расстояние между ячейками */
@@ -947,6 +952,7 @@ footer{
 		font-size: 12px;
 	}
 }
+/* Вёрстка для сайты при разрешении 720px */
 @media all and (max-width: 770px) {
 	.header_menu{
 		width: 100%; /* Ширина слоя в пикселах */
@@ -1091,6 +1097,7 @@ footer{
 		font-size: 12px;
 	}
 }
+/* Вёрстка для сайты при разрешении 1000px */
 @media all and (min-width: 1000px) {
 	.header_menu{
 		width: 100%; /* Ширина слоя в пикселах */
