@@ -217,3 +217,182 @@ footer{
 	position: absolute;
 	display:inline-block;
 }
+
+@media screen and (min-width: 300px) {
+	.header_menu{
+		width: 100%; /* Ширина слоя в пикселах */
+		margin: 0 auto; /* Отступ слева и справа */
+		background: #ffb053; /* Цвет фона */
+		padding: 10px; /* Поля вокруг текста */
+		text-align: center;
+	}
+  .logo {
+		margin: 0 auto; /* Отступ слева и справа */
+		width: 670px;
+		background: #ffb053; /* Цвет фона */
+		padding: 10px; /* Поля вокруг текста */
+		text-align: center;
+  }
+	.center{
+		position: relative;
+		top: 20px;
+		width: 350px; /* Ширина слоя в пикселах */
+		margin: 0 auto; /* Отступ слева и справа */
+		padding: 10px; /* Поля вокруг текста */
+		text-align:	center;
+		font-size: 22px;
+	}
+	footer{
+	  position: fixed;
+	  left: 0px;
+	  bottom: 0px;
+	  padding: 20px;
+	  width: 300px;
+	  height: 80px;
+	  background: #ffb053;
+	}
+}
+@media screen and (max-width: 400px) {
+	.header_menu{
+		width: 300px; /* Ширина слоя в пикселах */
+		margin: 0 auto; /* Отступ слева и справа */
+		background: #ffb053; /* Цвет фона */
+		padding: 10px; /* Поля вокруг текста */
+		text-align: center;
+	}
+  .logo {
+		margin: 0 auto; /* Отступ слева и справа */
+		width: 300px;
+		background: #ffb053; /* Цвет фона */
+		padding: 10px; /* Поля вокруг текста */
+		text-align: center;
+  }
+	.center{
+		position: relative;
+		top: 20px;
+		width: 300px; /* Ширина слоя в пикселах */
+		margin: 0 auto; /* Отступ слева и справа */
+		padding: 10px; /* Поля вокруг текста */
+		text-align:	center;
+		font-size: 18px;
+	}
+	.glavnaya_select{
+		color: #333333;
+		width: 60px;
+		display:inline-block;
+		cursor: pointer;
+		border-spacing: 250px; /* Расстояние между ячейками */
+	}
+	.glavnaya_select:hover{
+		transition: 0.5s;
+		display:inline-block;
+		border-spacing: 250px; /* Расстояние между ячейками */
+	}
+	.register{
+		color: #333333;
+		width: 60px;
+		display:inline-block;
+		cursor: pointer;
+		border-spacing: 250px; /* Расстояние между ячейками */
+	}
+	.arenda{
+		color: #333333;
+		width: 60px;
+		display:inline-bloc1k;
+		cursor: pointer;
+		border-spacing: 250px; /* Расстояние между ячейками */
+	}
+	.jelanie{
+		color: #333333;
+		width: 60px;
+		display:inline-block;
+		cursor: pointer;
+		border-spacing: 250px; /* Расстояние между ячейками */
+	}
+	.center_register{
+		position: relative;
+		top: 50px;
+		width: 200px; /* Ширина слоя в пикселах */
+		margin: 0 auto; /* Отступ слева и справа */
+		padding: 10px; /* Поля вокруг текста */
+		text-align:	center;
+		font-size: 28px;
+	}
+	.register_nou{
+		font-size: 14px;
+	}
+	.register_menu{
+		margin: 0 auto;
+		border-radius: 50px;
+		max-width: 200px;
+		border: 4px double black; /* Параметры границы */
+		background: #fff; /* Цвет фона */
+		padding: 10px; /* Поля вокруг текста */
+	}
+	.kvartira{
+		height: 90px;
+		margin: 10px;
+	}
+	.text_arend{
+		left: 100px;
+		height: 75px;
+		position: relative;
+	}
+	.kvartira_img{
+		position: absolute;
+		display:flex;
+		width: 100px;
+	}
+	.kvartira_nazvanie{
+		font-size: 16px;
+		padding: 1px;
+		text-align: left;
+	}
+	.kvartira_description{
+		font-size: 14px;
+		padding: 1px;
+		text-align: left;
+	}
+	.number_see{
+		font-size: 8px;
+		padding: 1px;
+		color: crimson;
+		text-align: left;
+	}
+	.prise{
+		font-size: 18px;
+		padding: 2px;
+		text-align: left;
+	}
+	footer{
+	  position: fixed;
+	  left: 0px;
+	  bottom: 0px;
+	  padding: 20px;
+	  width: 340px;
+	  height: 80px;
+	  background: #ffb053;
+	}
+	.footer_menu{
+	display:inline-block;
+		font-size: 12px;	
+	}
+	.footer_glavnaya_select{
+		cursor: pointer;
+	}
+	.footer_register{
+		cursor: pointer;
+	}
+	.footer_arenda{
+		cursor: pointer;
+	}
+	.footer_jelanie{
+		cursor: pointer;
+	}
+	.footer_info{
+		right: 80px;
+		position: absolute;
+		display:inline-block;
+		font-size: 12px;
+	}
+}
