@@ -1,1254 +1,1760 @@
 *{
-	margin: 0;
-	padding: 0;
+	 margin: 0;
+	 padding: 0;
 }
-a{
-  text-decoration: none;
-  text-decoration-color: none;
+ a{
+	 text-decoration: none;
+	 text-decoration-color: none;
 }
-a:visited {
-	color: black; /* Цвет посещенных ссылок */
+ a:visited {
+	 color: black;
+	/* Цвет посещенных ссылок */
 }
-a:active {
-	color: black; /* Цвет активных ссылок */
+ a:active {
+	 color: black;
+	/* Цвет активных ссылок */
 }
 /* header */
-.header_content{
-	width: 100%; /* Ширина слоя в пикселах */
-	text-align:	center;
-	background: #ffb053; /* Цвет фона */
+ .header_content{
+	 width: 100%;
+	/* Ширина слоя в пикселах */
+	 text-align: center;
+	 background: #ffb053;
+	/* Цвет фона */
 }
-.header_menu{
-	width: 700px; /* Ширина слоя в пикселах */
-	margin: 0 auto; /* Отступ слева и справа */
-	background: #ffb053; /* Цвет фона */
-	padding: 10px; /* Поля вокруг текста */
-	text-align: center;
+ .header_menu{
+	 width: 700px;
+	/* Ширина слоя в пикселах */
+	 margin: 0 auto;
+	/* Отступ слева и справа */
+	 background: #ffb053;
+	/* Цвет фона */
+	 padding: 10px;
+	/* Поля вокруг текста */
+	 text-align: center;
 }
-.glavnaya_select{
-	color: #333333;
-	width: 150px;
-	display:inline-block;
-	cursor: pointer;
-	border-spacing: 250px; /* Расстояние между ячейками */
+ .glavnaya_select{
+	 color: #333333;
+	 width: 150px;
+	 display:inline-block;
+	 cursor: pointer;
+	 border-spacing: 250px;
+	/* Расстояние между ячейками */
 }
-.glavnaya_select:hover{
-	transition: 0.5s;
-	display:inline-block;
-	border-spacing: 250px; /* Расстояние между ячейками */
+ .glavnaya_select:hover{
+	 transition: 0.5s;
+	 display:inline-block;
+	 border-spacing: 250px;
+	/* Расстояние между ячейками */
 }
-.register{
-	color: #333333;
-	width: 150px;
-	display:inline-block;
-	cursor: pointer;
-	border-spacing: 250px; /* Расстояние между ячейками */
+ .register{
+	 color: #333333;
+	 width: 150px;
+	 display:inline-block;
+	 cursor: pointer;
+	 border-spacing: 450px;
+	/* Расстояние между ячейками */
 }
-.arenda{
-	color: #333333;
-	width: 150px;
-	display:inline-block;
-	cursor: pointer;
-	border-spacing: 250px; /* Расстояние между ячейками */
+ .arenda{
+	 color: #333333;
+	 width: 150px;
+	 display:inline-block;
+	 cursor: pointer;
+	 border-spacing: 250px;
+	/* Расстояние между ячейками */
 }
-.jelanie{
-	color: #333333;
-	width: 150px;
-	display:inline-block;
-	cursor: pointer;
-	border-spacing: 250px; /* Расстояние между ячейками */
+ .jelanie{
+	 color: #333333;
+	 width: 150px;
+	 display:inline-block;
+	 cursor: pointer;
+	 border-spacing: 250px;
+	/* Расстояние между ячейками */
 }
-.logo{
-	margin: 0 auto; /* Отступ слева и справа */
-	background: #ffb053; /* Цвет фона */
-	padding: 10px; /* Поля вокруг текста */
-	text-align: center;
+ .zemla_header{
+	 color: #333333;
+	 width: 150px;
+	 display:inline-block;
+	 cursor: pointer;
+	 border-spacing: 250px;
+	/* Расстояние между ячейками */
 }
-
-
+ .logo{
+	 margin: 0 auto;
+	/* Отступ слева и справа */
+	 background: #ffb053;
+	/* Цвет фона */
+	 padding: 10px;
+	/* Поля вокруг текста */
+	 text-align: center;
+}
 /* content */
-.link{
-	position: absolute;
-	top: 50%;
-	margin-top: -10%;
-	display: inline-block;
-	width: 50px;
-	height: 100px;
-	font-size: 35px;
-	text-decoration: none;
+ .link{
+	 position: absolute;
+	 top: 7em;
+	 margin-top: -10%;
+	 display: inline-block;
+	 width: 50px;
+	 height: 100px;
+	 font-size: 35px;
+	 text-decoration: none;
 }
-.reddit{
-	color: #800000
-	text-decoration: none;
-	padding: 5px;
+ .reddit{
+	 color: #800000;
+	 text-decoration: none;
+	 padding: 5px;
 }
-.reddit:visited {
-	color: #fff;
+ .reddit:visited {
+	 color: #fff;
 }
-.reddit:active {
-	color: #fff; /* Цвет активных ссылок */
+ .reddit:active {
+	 color: #fff;
+	/* Цвет активных ссылок */
 }
-.vk{
-	text-decoration: none;
-	padding: 4px;
+ .vk{
+	 text-decoration: none;
+	 padding: 4px;
 }
-.whatsapp{
-	text-decoration: none;
-	padding: 7.5px;
-
+ .whatsapp{
+	 text-decoration: none;
+	 padding: 7.5px;
 }
-.twitter{
-	text-decoration: none;
-	padding: 6px;
-
+ .twitter{
+	 text-decoration: none;
+	 padding: 6px;
 }
-.email{
-	text-decoration: none;
-	padding: 5px;
-
+ .email{
+	 text-decoration: none;
+	 padding: 5px;
 }
-.facebook{
-	text-decoration: none;
-	padding: 12.5px;
-	position: relative;
-	top: 10px;
-
+ .facebook{
+	 text-decoration: none;
+	 padding: 12.5px;
+	 position: relative;
+	 top: 10px;
 }
-.center{
-	position: relative;
-	top: 20px;
-	width: 500px; /* Ширина слоя в пикселах */
-	margin: 0 auto; /* Отступ слева и справа */
-	padding: 10px; /* Поля вокруг текста */
-	text-align:	center;
-	font-size: 28px;
+ .center{
+	 position: relative;
+	 top: 20px;
+	 width: 500px;
+	/* Ширина слоя в пикселах */
+	 margin: 0 auto;
+	/* Отступ слева и справа */
+	 padding: 10px;
+	/* Поля вокруг текста */
+	 text-align: center;
+	 font-size: 28px;
 }
-.center_register{
-	position: relative;
-	top: 50px;
-	width: 500px; /* Ширина слоя в пикселах */
-	margin: 0 auto; /* Отступ слева и справа */
-	padding: 10px; /* Поля вокруг текста */
-	text-align:	center;
-	font-size: 28px;
+ .center_register{
+	 position: relative;
+	 top: 50px;
+	 width: 500px;
+	/* Ширина слоя в пикселах */
+	 margin: 0 auto;
+	/* Отступ слева и справа */
+	 padding: 10px;
+	/* Поля вокруг текста */
+	 text-align: center;
+	 font-size: 28px;
 }
-.register_menu{
-	margin: 0 auto;
-	border-radius: 50px;
-	max-width: 200px;
-	border: 4px double black; /* Параметры границы */
-	background: #fff; /* Цвет фона */
-	padding: 10px; /* Поля вокруг текста */
+ .register_menu{
+	 margin: 0 auto;
+	 border-radius: 50px;
+	 max-width: 200px;
+	 border: 4px double black;
+	/* Параметры границы */
+	 background: #fff;
+	/* Цвет фона */
+	 padding: 10px;
+	/* Поля вокруг текста */
 }
-.kvartira{
-	height: 150px;
-	margin: 10px;
+ .kvartira{
+	 height: 150px;
+	 margin: 10px;
 }
-.text_arend{
-	left: 210px;
-	height: 150px;
-	position: relative;
+ .text_arend{
+	 left: 210px;
+	 height: 150px;
+	 position: relative;
 }
-.kvartira_img{
-	position: absolute;
-	display:flex;
-	width: 200px;
+ .kvartira_img{
+	 position: absolute;
+	 display:flex;
+	 width: 200px;
 }
-.kvartira_nazvanie{
-	font-size: 24px;
-	padding: 5px;
-	text-align: left;
+ .kvartira_nazvanie{
+	 font-size: 24px;
+	 padding: 5px;
+	 text-align: left;
 }
-.kvartira_description{
-	font-size: 20px;
-	padding: 5px;
-	text-align: left;
+ .kvartira_description{
+	 font-size: 20px;
+	 padding: 5px;
+	 text-align: left;
 }
-.number_see{
-	font-size: 14px;
-	padding: 5px;
-	color: crimson;
-	text-align: left;
+ .zemla{
+	 height: 150px;
+	 margin: 10px;
 }
-.prise{
-	font-size: 28px;
-	padding: 5px;
-	text-align: left;
+ .zemla_img{
+	 position: absolute;
+	 display:flex;
+	 width: 200px;
 }
-
+ .zemla_nazvanie{
+	 font-size: 24px;
+	 padding: 5px;
+	 text-align: left;
+}
+ .zemla_description{
+	 font-size: 20px;
+	 padding: 5px;
+	 text-align: left;
+}
+ .number_see{
+	 font-size: 14px;
+	 padding: 5px;
+	 color: crimson;
+	 text-align: left;
+}
+ .prise{
+	 font-size: 28px;
+	 padding: 5px;
+	 text-align: left;
+}
 /* footer */
-footer{
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  padding: 20px;
-  width: 100%;
-  height: 80px;
-  background: #ffb053;
+ footer{
+	 position: fixed;
+	 left: 0px;
+	 bottom: 0px;
+	 padding: 20px;
+	 width: 100%;
+	 height: 80px;
+	 background: #ffb053;
 }
-.arenda_footer{
-  position: relative;
-  left: 0px;
-  margin-top: 50px;
-  bottom: 0px;
-  padding: 20px;
-  width: 100%;
-  height: 80px;
-  background: #ffb053;
+ .arenda_footer{
+	 position: relative;
+	 left: 0px;
+	 margin-top: 50px;
+	 bottom: 0px;
+	 padding: 20px;
+	 width: 100%;
+	 height: 80px;
+	 background: #ffb053;
 }
-.footer_menu{
-	display:inline-block;	
+ .footer_menu{
+	 display:inline-block;
 }
-.footer_glavnaya_select{
-	cursor: pointer;
+ .footer_glavnaya_select{
+	 cursor: pointer;
 }
-.footer_register{
-	cursor: pointer;
+ .footer_register{
+	 cursor: pointer;
 }
-.footer_arenda{
-	cursor: pointer;
+ .footer_arenda{
+	 cursor: pointer;
 }
-.footer_jelanie{
-	cursor: pointer;
+ .footer_jelanie{
+	 cursor: pointer;
 }
-
-.footer_info{
-	right: 80px;
-	position: absolute;
-	display:inline-block;
+ .footer_info{
+	 right: 80px;
+	 position: absolute;
+	 display:inline-block;
 }
 /* Вёрстка для сайты при разрешении 320px */
-@media all and (min-width: 320px) {
-	.header_menu{
-		width: 320px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
+ @media all and (min-width: 320px) {
+	 .header_menu{
+		 width: 320px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-  .logo {
-		margin: 0 auto; /* Отступ слева и справа */
-		width: 320px;
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
-  }
-	.center{
-		position: relative;
-		top: 20px;
-		width: 300px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 18px;
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 320px;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 300px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
 	}
-	.glavnaya_select:hover{
-		transition: 0.5s;
-		display:inline-block;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.arenda{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .register{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.jelanie{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .arenda{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.center_register{
-		position: relative;
-		top: 50px;
-		width: 200px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 28px;
+	 .jelanie{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_nou{
-		font-size: 14px;
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.register_menu{
-		margin: 0 auto;
-		border-radius: 50px;
-		max-width: 200px;
-		border: 4px double black; /* Параметры границы */
-		background: #fff; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
+	 .register_nou{
+		 font-size: 14px;
 	}
-	.kvartira{
-		height: 90px;
-		margin: 10px;
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
 	}
-	.text_arend{
-		left: 100px;
-		height: 75px;
-		position: relative;
+	 .kvartira{
+		 height: 90px;
+		 margin: 10px;
 	}
-	.kvartira_img{
-		position: absolute;
-		display:flex;
-		width: 100px;
+	 .text_arend{
+		 left: 100px;
+		 height: 75px;
+		 position: relative;
 	}
-	.kvartira_nazvanie{
-		font-size: 16px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.kvartira_description{
-		font-size: 14px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.number_see{
-		font-size: 8px;
-		padding: 1px;
-		color: crimson;
-		text-align: left;
+	 .kvartira_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.prise{
-		font-size: 18px;
-		padding: 2px;
-		text-align: left;
+	 .zemla{
+		 height: 90px;
+		 margin: 10px;
 	}
-	footer{
-	  position: fixed;
-	  left: 0px;
-	  bottom: 0px;
-	  padding: 20px;
-	  width: 320px;
-	  height: 80px;
-	  background: #ffb053;
+	 .zemla_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.arenda_footer{
-	  position: relative;
-	  left: 0px;
-	  margin-top: 50px;
-	  bottom: 0px;
-	  padding: 20px;
-	  width: 100%;
-	  height: 80px;
-	  background: #ffb053;
+	 .zemla_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.footer_menu{
-	display:inline-block;
-		font-size: 12px;	
+	 .zemla_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.footer_glavnaya_select{
-		cursor: pointer;
+	 .number_see{
+		 font-size: 8px;
+		 padding: 1px;
+		 color: crimson;
+		 text-align: left;
 	}
-	.footer_register{
-		cursor: pointer;
+	 .prise{
+		 font-size: 18px;
+		 padding: 2px;
+		 text-align: left;
 	}
-	.footer_arenda{
-		cursor: pointer;
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 20px;
+		 width: 320px;
+		 height: 80px;
+		 background: #ffb053;
 	}
-	.footer_jelanie{
-		cursor: pointer;
+	 .arenda_footer{
+		 position: relative;
+		 left: 0px;
+		 margin-top: 50px;
+		 bottom: 0px;
+		 padding: 20px;
+		 width: 90%;
+		 height: 80px;
+		 background: #ffb053;
 	}
-	.footer_info{
-		right: 80px;
-		position: absolute;
-		display:inline-block;
-		font-size: 12px;
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
+	}
+	 .footer_glavnaya_select{
+		 cursor: pointer;
+	}
+	 .footer_register{
+		 cursor: pointer;
+	}
+	 .footer_arenda{
+		 cursor: pointer;
+	}
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 80px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
 	}
 }
 /* Вёрстка для сайты при разрешении 325px */
-@media all and (max-width: 325px) {
-	.header_menu{
-		width: 320px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
+ @media all and (max-width: 325px) {
+	 .header_menu{
+		 width: 320px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-  .logo {
-		margin: 0 auto; /* Отступ слева и справа */
-		width: 300px;
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
-  }
-	.center{
-		position: relative;
-		top: 20px;
-		width: 300px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 18px;
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 300px;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 300px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
 	}
-	.glavnaya_select:hover{
-		transition: 0.5s;
-		display:inline-block;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.arenda{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .register{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.jelanie{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .arenda{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.center_register{
-		position: relative;
-		top: 50px;
-		width: 200px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 28px;
+	 .jelanie{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_nou{
-		font-size: 14px;
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.register_menu{
-		margin: 0 auto;
-		border-radius: 50px;
-		max-width: 200px;
-		border: 4px double black; /* Параметры границы */
-		background: #fff; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
+	 .register_nou{
+		 font-size: 14px;
 	}
-	.kvartira{
-		height: 90px;
-		margin: 10px;
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
 	}
-	.text_arend{
-		left: 100px;
-		height: 75px;
-		position: relative;
+	 .kvartira{
+		 height: 90px;
+		 margin: 10px;
 	}
-	.kvartira_img{
-		position: absolute;
-		display:flex;
-		width: 100px;
+	 .text_arend{
+		 left: 100px;
+		 height: 75px;
+		 position: relative;
 	}
-	.kvartira_nazvanie{
-		font-size: 16px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.kvartira_description{
-		font-size: 14px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.number_see{
-		font-size: 8px;
-		padding: 1px;
-		color: crimson;
-		text-align: left;
+	 .kvartira_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.prise{
-		font-size: 18px;
-		padding: 2px;
-		text-align: left;
+	 .zemla{
+		 height: 90px;
+		 margin: 10px;
 	}
-	footer{
-	  position: fixed;
-	  left: 0px;
-	  bottom: 0px;
-	  padding: 20px;
-	  width: 300px;
-	  height: 80px;
-	  background: #ffb053;
+	 .zemla_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.footer_menu{
-	display:inline-block;
-		font-size: 12px;	
+	 .zemla_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.footer_glavnaya_select{
-		cursor: pointer;
+	 .zemla_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.footer_register{
-		cursor: pointer;
+	 .number_see{
+		 font-size: 8px;
+		 padding: 1px;
+		 color: crimson;
+		 text-align: left;
 	}
-	.footer_arenda{
-		cursor: pointer;
+	 .prise{
+		 font-size: 18px;
+		 padding: 2px;
+		 text-align: left;
 	}
-	.footer_jelanie{
-		cursor: pointer;
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 20px;
+		 width: 300px;
+		 height: 80px;
+		 background: #ffb053;
 	}
-	.footer_info{
-		right: 80px;
-		position: absolute;
-		display:inline-block;
-		font-size: 12px;
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
+	}
+	 .footer_glavnaya_select{
+		 cursor: pointer;
+	}
+	 .footer_register{
+		 cursor: pointer;
+	}
+	 .footer_arenda{
+		 cursor: pointer;
+	}
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 80px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
 	}
 }
 /* Вёрстка для сайты при разрешении 374px */
-@media all and (min-width: 374px) {
-	.header_menu{
-		width: 370px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
+ @media all and (min-width: 374px) {
+	 .header_menu{
+		 width: 370px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-  .logo {
-		margin: 0 auto; /* Отступ слева и справа */
-		width: 350px;
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
-  }
-	.center{
-		position: relative;
-		top: 20px;
-		width: 300px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 18px;
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 350px;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 300px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
 	}
-	.glavnaya_select:hover{
-		transition: 0.5s;
-		display:inline-block;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.arenda{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .register{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.jelanie{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .arenda{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.center_register{
-		position: relative;
-		top: 50px;
-		width: 200px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 28px;
+	 .jelanie{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_nou{
-		font-size: 14px;
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.register_menu{
-		margin: 0 auto;
-		border-radius: 50px;
-		max-width: 200px;
-		border: 4px double black; /* Параметры границы */
-		background: #fff; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
+	 .register_nou{
+		 font-size: 14px;
 	}
-	.kvartira{
-		height: 90px;
-		margin: 10px;
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
 	}
-	.text_arend{
-		left: 100px;
-		height: 75px;
-		position: relative;
+	 .kvartira{
+		 height: 90px;
+		 margin: 10px;
 	}
-	.kvartira_img{
-		position: absolute;
-		display:flex;
-		width: 100px;
+	 .text_arend{
+		 left: 100px;
+		 height: 75px;
+		 position: relative;
 	}
-	.kvartira_nazvanie{
-		font-size: 16px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.kvartira_description{
-		font-size: 14px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.number_see{
-		font-size: 8px;
-		padding: 1px;
-		color: crimson;
-		text-align: left;
+	 .kvartira_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.prise{
-		font-size: 18px;
-		padding: 2px;
-		text-align: left;
+	 .number_see{
+		 font-size: 8px;
+		 padding: 1px;
+		 color: crimson;
+		 text-align: left;
 	}
-	footer{
-	  position: fixed;
-	  left: 0px;
-	  bottom: 0px;
-	  padding: 10px;
-	  width: 300px;
-	  height: 50px;
-	  background: #ffb053;
+	 .prise{
+		 font-size: 18px;
+		 padding: 2px;
+		 text-align: left;
 	}
-	.footer_menu{
-	display:inline-block;
-		font-size: 12px;	
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 10px;
+		 width: 300px;
+		 height: 50px;
+		 background: #ffb053;
 	}
-	.footer_glavnaya_select{
-		cursor: pointer;
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
 	}
-	.footer_register{
-		cursor: pointer;
+	 .footer_glavnaya_select{
+		 cursor: pointer;
 	}
-	.footer_arenda{
-		cursor: pointer;
+	 .footer_register{
+		 cursor: pointer;
 	}
-	.footer_jelanie{
-		cursor: pointer;
+	 .footer_arenda{
+		 cursor: pointer;
 	}
-	.footer_info{
-		right: 50px;
-		position: absolute;
-		display:inline-block;
-		font-size: 12px;
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 50px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
 	}
 }
 /* Вёрстка для сайты при разрешении 399px */
-@media all and (max-width: 399px) {
-	.header_menu{
-		width: 350px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
+ @media all and (max-width: 399px) {
+	 .header_menu{
+		 width: 350px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-  .logo {
-		margin: 0 auto; /* Отступ слева и справа */
-		width: 350px;
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
-  }
-	.center{
-		position: relative;
-		top: 20px;
-		width: 300px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 18px;
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 350px;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 300px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
 	}
-	.glavnaya_select:hover{
-		transition: 0.5s;
-		display:inline-block;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.arenda{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .register{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.jelanie{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .arenda{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.center_register{
-		position: relative;
-		top: 50px;
-		width: 200px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 28px;
+	 .jelanie{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_nou{
-		font-size: 14px;
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.register_menu{
-		margin: 0 auto;
-		border-radius: 50px;
-		max-width: 200px;
-		border: 4px double black; /* Параметры границы */
-		background: #fff; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
+	 .register_nou{
+		 font-size: 14px;
 	}
-	.kvartira{
-		height: 90px;
-		margin: 10px;
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
 	}
-	.text_arend{
-		left: 100px;
-		height: 75px;
-		position: relative;
+	 .kvartira{
+		 height: 90px;
+		 margin: 10px;
 	}
-	.kvartira_img{
-		position: absolute;
-		display:flex;
-		width: 100px;
+	 .text_arend{
+		 left: 100px;
+		 height: 75px;
+		 position: relative;
 	}
-	.kvartira_nazvanie{
-		font-size: 16px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.kvartira_description{
-		font-size: 14px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.number_see{
-		font-size: 8px;
-		padding: 1px;
-		color: crimson;
-		text-align: left;
+	 .kvartira_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.prise{
-		font-size: 18px;
-		padding: 2px;
-		text-align: left;
+	 .number_see{
+		 font-size: 8px;
+		 padding: 1px;
+		 color: crimson;
+		 text-align: left;
 	}
-	footer{
-	  position: fixed;
-	  left: 0px;
-	  bottom: 0px;
-	  padding: 10px;
-	  width: 300px;
-	  height: 50px;
-	  background: #ffb053;
+	 .prise{
+		 font-size: 18px;
+		 padding: 2px;
+		 text-align: left;
 	}
-	.footer_menu{
-	display:inline-block;
-		font-size: 12px;	
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 10px;
+		 width: 300px;
+		 height: 50px;
+		 background: #ffb053;
 	}
-	.footer_glavnaya_select{
-		cursor: pointer;
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
 	}
-	.footer_register{
-		cursor: pointer;
+	 .footer_glavnaya_select{
+		 cursor: pointer;
 	}
-	.footer_arenda{
-		cursor: pointer;
+	 .footer_register{
+		 cursor: pointer;
 	}
-	.footer_jelanie{
-		cursor: pointer;
+	 .footer_arenda{
+		 cursor: pointer;
 	}
-	.footer_info{
-		right: 50px;
-		position: absolute;
-		display:inline-block;
-		font-size: 12px;
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 50px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
 	}
 }
 /* Вёрстка для сайты при разрешении 425px */
-@media all and (min-width: 425px) {
-	.header_menu{
-		width: 450px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
+ @media all and (min-width: 425px) {
+	 .header_content{
+		 width: 430px;
+		/* Ширина слоя в пикселах */
+		 text-align: center;
+		 background: #ffb053;
+		/* Цвет фона */
 	}
-  .logo {
-		margin: 0 auto; /* Отступ слева и справа */
-		width: 400px;
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
-  }
-	.center{
-		position: relative;
-		top: 20px;
-		width: 425px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 18px;
+	 .header_menu{
+		 width: 430px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select{
-		color: #333333;
-		width: 100px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 430px;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select:hover{
-		transition: 0.5s;
-		display:inline-block;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 450px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
 	}
-	.register{
-		color: #333333;
-		width: 100px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.arenda{
-		color: #333333;
-		width: 100px;
-		display:inline-bloc1k;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.jelanie{
-		color: #333333;
-		width: 100px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .register{
+		 color: #333333;
+		 width: 150px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.center_register{
-		position: relative;
-		top: 50px;
-		width: 200px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 28px;
+	 .arenda{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-bloc1k;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_nou{
-		font-size: 14px;
+	 .jelanie{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_menu{
-		margin: 0 auto;
-		border-radius: 50px;
-		max-width: 200px;
-		border: 4px double black; /* Параметры границы */
-		background: #fff; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.kvartira{
-		height: 90px;
-		margin: 10px;
+	 .register_nou{
+		 font-size: 14px;
 	}
-	.text_arend{
-		left: 100px;
-		height: 75px;
-		position: relative;
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
 	}
-	.kvartira_img{
-		position: absolute;
-		display:flex;
-		width: 100px;
+	 .kvartira{
+		 height: 90px;
+		 margin: 10px;
 	}
-	.kvartira_nazvanie{
-		font-size: 16px;
-		padding: 1px;
-		text-align: left;
+	 .text_arend{
+		 left: 100px;
+		 height: 75px;
+		 position: relative;
 	}
-	.kvartira_description{
-		font-size: 14px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.number_see{
-		font-size: 8px;
-		padding: 1px;
-		color: crimson;
-		text-align: left;
+	 .kvartira_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.prise{
-		font-size: 18px;
-		padding: 2px;
-		text-align: left;
+	 .kvartira_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	footer{
-	  position: fixed;
-	  left: 0px;
-	  bottom: 0px;
-	  padding: 20px;
-	  width: 400px;
-	  height: 80px;
-	  background: #ffb053;
+	 .number_see{
+		 font-size: 8px;
+		 padding: 1px;
+		 color: crimson;
+		 text-align: left;
 	}
-	.footer_menu{
-	display:inline-block;
-		font-size: 12px;	
+	 .prise{
+		 font-size: 18px;
+		 padding: 2px;
+		 text-align: left;
 	}
-	.footer_glavnaya_select{
-		cursor: pointer;
+	 .center{
+		 width: 450px;
+		/* Ширина слоя в пикселах */
 	}
-	.footer_register{
-		cursor: pointer;
+	 body{
+		 width: 450px;
+		/* Ширина слоя в пикселах */
 	}
-	.footer_arenda{
-		cursor: pointer;
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 20px;
+		 width: 410px;
+		 height: 80px;
+		 background: #ffb053;
 	}
-	.footer_jelanie{
-		cursor: pointer;
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
 	}
-	.footer_info{
-		right: 80px;
-		position: absolute;
-		display:inline-block;
-		font-size: 12px;
+	 .footer_glavnaya_select{
+		 cursor: pointer;
+	}
+	 .footer_register{
+		 cursor: pointer;
+	}
+	 .footer_arenda{
+		 cursor: pointer;
+	}
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 80px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
+	}
+}
+/* Вёрстка для сайты при разрешении 560px */
+ @media all and (min-width: 560px) {
+	 .header_content{
+		 width: 100%;
+		/* Ширина слоя в пикселах */
+		 text-align: center;
+		 background: #ffb053;
+		/* Цвет фона */
+	}
+	 .header_menu{
+		 width: 100%;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+	}
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 570px;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+	}
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 450px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
+	}
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
+	}
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
+	}
+	 .register{
+		 color: #333333;
+		 width: 150px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
+	}
+	 .arenda{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-bloc1k;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
+	}
+	 .jelanie{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
+	}
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
+	}
+	 .register_nou{
+		 font-size: 14px;
+	}
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+	}
+	 .kvartira{
+		 height: 90px;
+		 margin: 10px;
+	}
+	 .text_arend{
+		 left: 100px;
+		 height: 75px;
+		 position: relative;
+	}
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
+	}
+	 .kvartira_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
+	}
+	 .kvartira_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
+	}
+.zemla{
+		 height: 90px;
+		 margin: 10px;
+}
+.zemla_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
+}
+.zemla_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
+}
+.zemla_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
+}
+	 .number_see{
+		 font-size: 8px;
+		 padding: 1px;
+		 color: crimson;
+		 text-align: left;
+	}
+	 .prise{
+		 font-size: 18px;
+		 padding: 2px;
+		 text-align: left;
+	}
+	 body{
+		 width: 100%;
+		/* Ширина слоя в пикселах */
+	}
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 20px;
+		 width: 100%;
+		 height: 80px;
+		 background: #ffb053;
+	}
+	 .arenda_footer{
+		 margin-top: 50px;
+		 padding: 20px;
+		 width: 97%;
+		 height: 80px;
+		 background: #ffb053;
+	}
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
+	}
+	 .footer_glavnaya_select{
+		 cursor: pointer;
+	}
+	 .footer_register{
+		 cursor: pointer;
+	}
+	 .footer_arenda{
+		 cursor: pointer;
+	}
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 80px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
 	}
 }
 /* Вёрстка для сайты при разрешении 720px */
-@media all and (max-width: 770px) {
-	.header_menu{
-		width: 100%; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
+ @media all and (max-width: 770px) {
+	 .header_menu{
+		 width: 100%;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-  .logo {
-		margin: 0 auto; /* Отступ слева и справа */
-		width: 100%;
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
-  }
-	.center{
-		position: relative;
-		top: 20px;
-		width: 300px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 18px;
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 100%;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 300px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
 	}
-	.glavnaya_select:hover{
-		transition: 0.5s;
-		display:inline-block;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.arenda{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .register{
+		 color: #333333;
+		 width: 150px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.jelanie{
-		color: #333333;
-		width: 60px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .arenda{
+		 color: #333333;
+		 width: 70px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.center_register{
-		position: relative;
-		top: 50px;
-		width: 200px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 28px;
+	 .jelanie{
+		 color: #333333;
+		 width: 60px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_nou{
-		font-size: 14px;
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.register_menu{
-		margin: 0 auto;
-		border-radius: 50px;
-		max-width: 200px;
-		border: 4px double black; /* Параметры границы */
-		background: #fff; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
+	 .register_nou{
+		 font-size: 14px;
 	}
-	.kvartira{
-		height: 90px;
-		margin: 10px;
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
 	}
-	.text_arend{
-		left: 100px;
-		height: 75px;
-		position: relative;
+	 .kvartira{
+		 height: 90px;
+		 margin: 10px;
 	}
-	.kvartira_img{
-		position: absolute;
-		display:flex;
-		width: 100px;
+	 .text_arend{
+		 left: 100px;
+		 height: 75px;
+		 position: relative;
 	}
-	.kvartira_nazvanie{
-		font-size: 16px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.kvartira_description{
-		font-size: 14px;
-		padding: 1px;
-		text-align: left;
+	 .kvartira_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.number_see{
-		font-size: 8px;
-		padding: 1px;
-		color: crimson;
-		text-align: left;
+	 .kvartira_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.prise{
-		font-size: 18px;
-		padding: 2px;
-		text-align: left;
+	 .number_see{
+		 font-size: 8px;
+		 padding: 1px;
+		 color: crimson;
+		 text-align: left;
 	}
-	footer{
-	  position: fixed;
-	  left: 0px;
-	  bottom: 0px;
-	  padding: 20px;
-	  width: 100%;
-	  height: 80px;
-	  background: #ffb053;
+	 .zemla{
+		 height: 90px;
+		 margin: 10px;
 	}
-	.footer_menu{
-	display:inline-block;
-		font-size: 12px;	
+	 .zemla_img{
+		 position: absolute;
+		 display:flex;
+		 width: 100px;
 	}
-	.footer_glavnaya_select{
-		cursor: pointer;
+	 .zemla_nazvanie{
+		 font-size: 16px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.footer_register{
-		cursor: pointer;
+	 .zemla_description{
+		 font-size: 14px;
+		 padding: 1px;
+		 text-align: left;
 	}
-	.footer_arenda{
-		cursor: pointer;
+	 .prise{
+		 font-size: 18px;
+		 padding: 2px;
+		 text-align: left;
 	}
-	.footer_jelanie{
-		cursor: pointer;
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 50 0px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.footer_info{
-		right: 80px;
-		position: absolute;
-		display:inline-block;
-		font-size: 12px;
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 20px;
+		 width: 100%;
+		 height: 80px;
+		 background: #ffb053;
+	}
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
+	}
+	 .footer_glavnaya_select{
+		 cursor: pointer;
+	}
+	 .footer_register{
+		 cursor: pointer;
+	}
+	 .footer_arenda{
+		 cursor: pointer;
+	}
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 80px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
 	}
 }
 /* Вёрстка для сайты при разрешении 1000px */
-@media all and (min-width: 1000px) {
-	.header_menu{
-		width: 100%; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
+ @media all and (min-width: 1000px) {
+	 .header_menu{
+		 width: 100%;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-  .logo {
-		margin: 0 auto; /* Отступ слева и справа */
-		width: 100%;
-		background: #ffb053; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
-		text-align: center;
-  }
-	.center{
-		position: relative;
-		top: 20px;
-		width: 300px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 18px;
+	 .header_content{
+		 width: 100%;
+		/* Ширина слоя в пикселах */
+		 text-align: center;
+		 background: #ffb053;
+		/* Цвет фона */
 	}
-	.glavnaya_select{
-		color: #333333;
-		width: 100px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .logo {
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 width: 100%;
+		 background: #ffb053;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
 	}
-	.glavnaya_select:hover{
-		transition: 0.5s;
-		display:inline-block;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .center{
+		 position: relative;
+		 top: 20px;
+		 width: 300px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 18px;
 	}
-	.register{
-		color: #333333;
-		width: 100px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.arenda{
-		color: #333333;
-		width: 100px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .glavnaya_select:hover{
+		 transition: 0.5s;
+		 display:inline-block;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.jelanie{
-		color: #333333;
-		width: 100px;
-		display:inline-block;
-		cursor: pointer;
-		border-spacing: 250px; /* Расстояние между ячейками */
+	 .register{
+		 color: #333333;
+		 width: 150px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.center_register{
-		position: relative;
-		top: 50px;
-		width: 200px; /* Ширина слоя в пикселах */
-		margin: 0 auto; /* Отступ слева и справа */
-		padding: 10px; /* Поля вокруг текста */
-		text-align:	center;
-		font-size: 28px;
+	 .arenda{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_nou{
-		font-size: 14px;
+	 .jelanie{
+		 color: #333333;
+		 width: 100px;
+		 display:inline-block;
+		 cursor: pointer;
+		 border-spacing: 250px;
+		/* Расстояние между ячейками */
 	}
-	.register_menu{
-		margin: 0 auto;
-		border-radius: 50px;
-		max-width: 200px;
-		border: 4px double black; /* Параметры границы */
-		background: #fff; /* Цвет фона */
-		padding: 10px; /* Поля вокруг текста */
+	 .center_register{
+		 position: relative;
+		 top: 50px;
+		 width: 200px;
+		/* Ширина слоя в пикселах */
+		 margin: 0 auto;
+		/* Отступ слева и справа */
+		 padding: 10px;
+		/* Поля вокруг текста */
+		 text-align: center;
+		 font-size: 28px;
 	}
-	.kvartira{
-		height: 190px;
-		margin: 10px;
+	 .register_nou{
+		 font-size: 14px;
 	}
-	.text_arend{
-		left: 200px;
-		height: 75px;
-		position: relative;
+	 .register_menu{
+		 margin: 0 auto;
+		 border-radius: 50px;
+		 max-width: 200px;
+		 border: 4px double black;
+		/* Параметры границы */
+		 background: #fff;
+		/* Цвет фона */
+		 padding: 10px;
+		/* Поля вокруг текста */
 	}
-	.kvartira_img{
-		position: absolute;
-		display:flex;
-		width: 200px;
+	 .kvartira{
+		 height: 190px;
+		 margin: 10px;
 	}
-	.kvartira_nazvanie{
-		font-size: 26px;
-		padding: 5px;
-		text-align: left;
+	 .text_arend{
+		 left: 200px;
+		 height: 75px;
+		 position: relative;
 	}
-	.kvartira_description{
-		font-size: 24px;
-		padding: 5px;
-		text-align: left;
+	 .kvartira_img{
+		 position: absolute;
+		 display:flex;
+		 width: 200px;
 	}
-	.number_see{
-		font-size: 18px;
-		padding: 5px;
-		color: crimson;
-		text-align: left;
+	 .kvartira_nazvanie{
+		 font-size: 26px;
+		 padding: 5px;
+		 text-align: left;
 	}
-	.prise{
-		font-size: 28px;
-		padding: 5px;
-		text-align: left;
+	 .kvartira_description{
+		 font-size: 24px;
+		 padding: 5px;
+		 text-align: left;
 	}
-	footer{
-	  position: fixed;
-	  left: 0px;
-	  bottom: 0px;
-	  padding: 20px;
-	  width: 100%;
-	  height: 80px;
-	  background: #ffb053;
+	 .zemla{
+		 height: 190px;
+		 margin: 10px;
 	}
-.arenda_footer{
-  position: relative;
-  left: 0px;
-  margin-top: 50px;
-  bottom: -80px;
-  padding: 20px;
-  width: 100%;
-  height: 80px;
-  background: #ffb053;
-}
-	.footer_menu{
-	display:inline-block;
-		font-size: 12px;	
+	 .zemla_img{
+		 position: absolute;
+		 display:flex;
+		 width: 200px;
 	}
-	.footer_glavnaya_select{
-		cursor: pointer;
+	 .zemla_nazvanie{
+		 font-size: 26px;
+		 padding: 5px;
+		 text-align: left;
 	}
-	.footer_register{
-		cursor: pointer;
+	 .zemla_description{
+		 font-size: 24px;
+		 padding: 5px;
+		 text-align: left;
 	}
-	.footer_arenda{
-		cursor: pointer;
+	 .number_see{
+		 font-size: 18px;
+		 padding: 5px;
+		 color: crimson;
+		 text-align: left;
 	}
-	.footer_jelanie{
-		cursor: pointer;
+	 .prise{
+		 font-size: 28px;
+		 padding: 5px;
+		 text-align: left;
 	}
-	.footer_info{
-		right: 80px;
-		position: absolute;
-		display:inline-block;
-		font-size: 12px;
+	 body{
+		 width: 100%;
+		/* Ширина слоя в пикселах */
+	}
+	 footer{
+		 position: fixed;
+		 left: 0px;
+		 bottom: 0px;
+		 padding: 20px;
+		 width: 100%;
+		 height: 80px;
+		 background: #ffb053;
+	}
+	 .arenda_footer{
+		 margin-top: 50px;
+		 padding: 20px;
+		 width: 90%;
+		 height: 80px;
+		 background: #ffb053;
+	}
+	 .footer_menu{
+		 display:inline-block;
+		 font-size: 12px;
+	}
+	 .footer_glavnaya_select{
+		 cursor: pointer;
+	}
+	 .footer_register{
+		 cursor: pointer;
+	}
+	 .footer_arenda{
+		 cursor: pointer;
+	}
+	 .footer_jelanie{
+		 cursor: pointer;
+	}
+	 .footer_info{
+		 right: 80px;
+		 position: absolute;
+		 display:inline-block;
+		 font-size: 12px;
 	}
 }
